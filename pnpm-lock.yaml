@@ -52,6 +52,9 @@ devDependencies:
   '@vitejs/plugin-react':
     specifier: ^4.0.3
     version: 4.0.3(vite@4.4.5)
+  chromatic:
+    specifier: ^6.24.1
+    version: 6.24.1
   eslint:
     specifier: ^8.45.0
     version: 8.45.0
@@ -4408,6 +4411,11 @@ packages:
   /chownr@2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
+    dev: true
+
+  /chromatic@6.24.1:
+    resolution: {integrity: sha512-XbpdWWHvFpEHtcq1Km71UcuQ07effB+8q8L47E1Y7HJmJ4ZCoKCuPd8liNrbnvwEAxqfBZvTcONYU/3BPz2i5w==}
+    hasBin: true
     dev: true
 
   /ci-info@3.8.0:
